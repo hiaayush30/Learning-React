@@ -1,0 +1,14 @@
+/* tailwind directives */
+@tailwind base;
+/* styles applied  globally across the project */
+@tailwind components;
+/* styles applied to the components or resusable elements */
+@tailwind utilities;
+/* atomic styles fot individual styles like margins,paddings etc */
+
+/* similarly we have @layer directive */
+@layer components{
+    .myButton{
+        @apply m-10 rounded-lg px-2 py-1 bg-red-500 transition-all shadow-lg hover:shadow-xl text-white hover:scale-125 active:bg-red-800
+    }
+}
