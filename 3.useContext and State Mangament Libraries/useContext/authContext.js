@@ -13,6 +13,8 @@ export const AuthProvider = ({ children }) => {
     setLoading(false);
   };
 
+  // It only runs once when the AuthProvider component is mounted, 
+  // ie when the AuthProvider component is render onto the DOM
   useEffect(() => {
     checkAuth();
   }, []);
@@ -25,3 +27,5 @@ export const AuthProvider = ({ children }) => {
 };
 
 export const useAuth = () => useContext(AuthContext);
+//is a custom hook to access the context data more conveniently from any component.
+//without needing to use useContext every time

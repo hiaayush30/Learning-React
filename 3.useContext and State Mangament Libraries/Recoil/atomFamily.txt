@@ -1,0 +1,3 @@
+Returns a function that returns a writeable atom.
+if us pass the same inputs to it multiple times,it still creates only 1 atom
+if you update one item,all other item with same input get updated
