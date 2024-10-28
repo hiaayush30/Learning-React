@@ -11,7 +11,7 @@ const Greeting = () => {
         >
             <h1>{greet}</h1>
             <p>{new Date().getDate()}</p>
-            <FcLike />
+            <FcLike size={30} color='gold'/>
         </div>
     )
 }
