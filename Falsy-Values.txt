@@ -1,9 +1,0 @@
-Falsy Values
-
-false — the Boolean false
-0 — the number zero
--0 — negative zero (equivalent to 0 in JavaScript)
-"" or '' or `` — an empty string (both single or double quotes, or backticks)
-null — represents the absence of any value
-undefined — represents an uninitialized variable or missing value
-NaN — “Not-a-Number,” a result of invalid math operations like 0 / 0
